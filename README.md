@@ -88,3 +88,7 @@ To run the ocr-sr.py file, run "python ocr-crv1.py".
 
 python ocr-crv1.py
 
+
+### If you have any ideas for the program, or need help, go to the Discussion tab. From there, comment on my Discussion, or make a new discussion. 
+
+### If you have any bugs, go to the issues tab, and make a new issue. 
