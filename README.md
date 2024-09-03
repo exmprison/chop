@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Chop** is a program that helps blind people by providing AI image descriptions, OCR-powered screen reading, and OCR-powered image accessibility.
+**Chop** is a program that helps people who are blind and low-vision by providing AI image descriptions, OCR-powered screen reading, and OCR-powered image accessibility.
 
 ### AI Image Describing
 
@@ -10,13 +10,13 @@ Using AI, we can get a description of an image.
 
 ### OCR-Powered Screen Reader
 
-Using OCR, this screen reader can read any program or website, even if they are not accessible to normal screen readers. It takes the location of the text from the OCR scan and lets you hover your cursor over the text, and it will read aloud.
+Using OCR, this screen reader can read any program or website, even if they are not accessible to normal screen readers. It takes the location of the text from the OCR scan and lets you hover your cursor over the text to read aloud.
 
 > **Note:** This uses OCR and is not always accurate. It is recommended to use when a program is not working with a normal screen reader.
 
 ### OCR-Powered Image Accessibility
 
-This feature uses OCR to get the locations of text on an image. It will place the readable text over the normal text on an image. Therefore, images can be read with a screen reader, and the text can keep its location for images like maps, where you need to know where things are.
+This feature uses OCR to get the locations of text on an image. It will place the readable text over the non-accesible text on an image. Therefore, images can be read with a screen reader, and the text can keep its location for images like maps, where you need to know where things are.
 
 ## Installation
 
@@ -38,7 +38,7 @@ After signing up, get an Azure API key at: [https://portal.azure.com/#create/Mic
 
 Download the Python files from the GitHub repository.
 
-To download the GitHub files to your computer, go to the big green button that says **Code** near the top of the webpage. When you click it, at the bottom of the popup it will say **Download ZIP**. Click that button.
+To download the GitHub files to your computer, go to the big green button that says **Code** near the top of the webpage. When you click it, at the bottom of the popup it will say, **Download ZIP**. Click that button.
 
 ### Step 5: Extract the Files
 
@@ -59,11 +59,17 @@ Click **Shift** and **Right Click** while hovering over your folder and click **
 Run these commands one at a time in the terminal:
 
 pip install pytesseract
+
 pip install Pillow
+
 pip install pyttsx3
+
 pip install keyboard
+
 pip install pywin32
+
 pip install pyperclip
+
 pip install azure-ai-vision-imageanalysis
 
 ### Step 9: Configure the API Key
