@@ -74,6 +74,11 @@ Under the first few lines, you should see something saying endpoint = '' and key
 ### Step 10: Run the Program
 To run the main.py file, which handles AI image describing and AI image accessibility, use the command:
 
-python main.py
+python mainv1.py
 
-To run other Python files, do the same thing but instead of main.py, use the name of the file you wish to run.
+That command only runs the AI image describing and AI image accessibility. 
+
+To run the ocr-sr.py file, run "python ocr-crv1.py".
+
+python ocr-crv1.py
+
