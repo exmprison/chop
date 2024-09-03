@@ -88,6 +88,16 @@ To run the ocr-sr.py file, run "python ocr-crv1.py".
 
 python ocr-crv1.py
 
+# How To Use
+
+## main.py
+
+You can use main.py which gives image descriptions and makes images accessible by first running the file. As described above, you will use python mainv1.py to run it. Now, right click on any image. It does not work with images on google search, but you can just click on an image from google and go to the website. After right clicking, click copy image address. The program will detect that you have copied an image address and give you a description. If you do not see a window pop up, then click alt and tab on your keyboard, and look for it as the last tab. After clicking “okay” on the image description, it will ask if you want to make the image accessible. If you click “yes”, it will make the image accessible, and if you click “no”, it will not. 
+
+## ocr-sr.py 
+
+This python is for the ocr powered screen reader. When run with python ocr-srv1.py, nothing will happen at first besides some directions that will be printed into the terminal. When you are at your program that does not work with a normal screen reader, you can click alt and r to start up the screen reader. Move your mouse around and it will read the text. You can left click to have the ocr reset for when your screen changes, and you can click alt r to stop the program. 
+
 
 ### If you have any ideas for the program, or need help, go to the Discussion tab. From there, comment on my Discussion, or make a new discussion. 
 
